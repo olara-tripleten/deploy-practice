@@ -1,0 +1,4 @@
+{
+  "name": "This is my app",
+  "specifications": ["REST API", "Javascript", "Some other data"]
+}

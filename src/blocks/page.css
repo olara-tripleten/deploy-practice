@@ -1,0 +1,66 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto 100px;
+  padding: 0 20px 20px;
+  border-bottom: 1px solid black;
+}
+
+.posts__list {
+  list-style: none;
+  padding: 20px;
+  margin: 0px;
+  border: 2px dashed red;
+  display: grid;
+  gap: 20px;
+}
+
+.post {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+}
+
+.post__delete-button {
+  background-image: url(../trash.svg);
+  background-size: 24px;
+  background-position: center;
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 40px;
+  height: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.pokemon__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border: 2px dashed black;
+}
+
+.pokemon {
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.pokemon__play-button {
+  background-image: url(../play.svg);
+  padding: 10px;
+  border-radius: 50%;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="section">
+      <h1>Working with API's</h1>
+      <a href="#json-placeholder">Json Placeholder API</a>
+      <a href="#pokemon">Pokemon</a>
+    </nav>
+    <section id="json-placeholder" class="section">
+      <h2>JSON Placeholder API</h2>
+      <form class="posts__form form">
+        <input
+          type="text"
+          class="form__input"
+          id="post-title"
+          name="title"
+          placeholder="Your posts name"
+        />
+        <textarea
+          name="description"
+          id="post-body"
+          class="form__input"
+        ></textarea>
+        <button type="submit">Create</button>
+      </form>
+      <ul class="posts__list">
+        <template id="post-template">
+          <li class="post">
+            <div>
+              <h3 class="post__title"></h3>
+              <p class="post__body"></p>
+            </div>
+            <button class="post__delete-button"></button>
+          </li>
+        </template>
+      </ul>
+    </section>
+    <section class="section" id="pokemon">
+      <h2>Pokemon API</h2>
+      <ul class="pokemon__list">
+        <template id="pokemon-template">
+          <li class="pokemon">
+            <h3 class="pokemon__title"></h3>
+            <div>
+              <img
+                class="pokemon__sprite pokemon__sprite_front"
+                src=""
+                alt=""
+              />
+              <img class="pokemon__sprite pokemon__sprite_back" src="" alt="" />
+            </div>
+            <button class="pokemon__play-button"></button>
+          </li>
+        </template>
+      </ul>
+    </section>
+    <section></section>
+  </body>
+</html>
